@@ -6,9 +6,9 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-* {
+/* * {
     border: 1px solid red !important;
- }
+ } */
 
 html {
     box-sizing: border-box;
@@ -39,6 +39,14 @@ header {
     padding: 20px;
 }
 
+header li {
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    margin: 5px;
+    border: 1px solid black;
+}
+
 nav {
     float: right;
     max-width: 60%;
@@ -47,13 +55,6 @@ nav {
     margin: 40px;
 }
 
-header li {
-    display: inline-block;
-    width: 100px;
-    text-align: center;
-    margin: 5px;
-    border: 1px solid black;
-}
 
 .clickme {
     background-color: #b1d0f3cb;
