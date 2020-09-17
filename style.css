@@ -1,0 +1,154 @@
+
+/* global */
+*{ 
+    margin:0;
+    padding: 0; 
+    font-family: 'Open Sans', sans-serif;
+}
+
+* {
+    border: 1px solid red !important;
+ }
+
+html {
+    box-sizing: border-box;
+  }
+
+/* body */
+
+body {
+    background-color: white;
+    color:rgb(1, 39, 1);
+    margin: 0px auto;
+    padding: 0px;
+    width: 1200px;
+    font-size: 15px;
+    line-height: 1.5;
+} 
+
+header img{
+    width: 400px;
+    float: left;
+    margin-left: 2%;
+    box-shadow: 5px 5px 5px grey;
+}
+
+header {
+    text-align: center;
+    display: block;
+    padding: 20px;
+}
+
+nav {
+    float: right;
+    max-width: 60%;
+    border: 2px solid #3a382e;
+    display: block;
+    margin: 40px;
+}
+
+header li {
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    margin: 5px;
+    border: 1px solid black;
+}
+
+.clickme {
+    background-color: #b1d0f3cb;
+    padding: 8px 20px;
+    text-decoration:none;
+    font-weight:bold;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+/* main */
+
+main img {
+    max-width: 100%;
+    height: min-content;
+    /* width: 300px; */
+    /* align-items: center; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* display: table-row-group; */
+    /* text-align:center; */
+  /* height: 100vh; */
+}
+
+section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: 1200px;
+    clear: both;
+    background-color: lightgrey;
+    
+}
+
+.container {
+  display:flex;
+  widows: 90%;
+  margin:0 auto;
+}
+.box {
+  flex: 1;
+  margin:0 4px;
+  /* text-align:center; */
+}
+
+article {
+    /* width: 300px; */
+    /* display: inline-block; */
+    /* vertical-align: top; */
+}
+
+
+h3{
+    text-align:center;
+    padding: 10px;
+    font-size: 2.0vw;
+}
+
+/* footer */
+
+/* Contact Info */
+
+.footer {
+    background: #211f17;
+    display: block;
+    padding: 20px;
+    position: relative;
+
+}
+
+.us{
+    display: inline-table;
+    max-width: 30%;
+    width: 30%;
+    margin: 2% 0 2% 4%
+}
+
+.address{
+    display: inline-table;
+    max-width: 30%;
+    width: 30%;
+    margin: 2% 0 2% 25%
+}
+  
+.us .bold, .address .bold{
+    color: red;
+    font-size: 1.5vw;
+    font-weight: 700;
+    padding-bottom: 4%;
+}
+
+.us p, .address p{
+    color:white;
+    font-size: 1.2vw;
+}
+
+.action{
+    float: inherit;
+}
