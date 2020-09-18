@@ -2,7 +2,7 @@
 
 // helper function
 function getPicture() {
-  var response = prompt('Would you like your farhouse decoratd with Wyeth or Wood?');
+  var response = prompt('Would you like your farmhouse decorated with Wyeth or Wood?');
   var painting;
 
   while(response != 'Wyeth' && response != 'Wood') {
